@@ -1,6 +1,11 @@
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://stand-with-ukraine.pp.ua)
+### Ingredients
 
----
+- Electron
+- Vite
+- TypeScript
+- React
+- CodeMirror 6
+- Remark
 
 # Vite Electron Builder Boilerplate
 
