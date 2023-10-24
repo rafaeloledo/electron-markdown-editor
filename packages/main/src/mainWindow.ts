@@ -3,7 +3,15 @@ import {join, resolve} from 'node:path';
 
 async function createWindow() {
   const browserWindow = new BrowserWindow({
+    width: 1100,
+    height: 730,
+    center: true,
     show: false, // Use the 'ready-to-show' event to show the instantiated BrowserWindow.
+    vibrancy: 'under-window',
+    backgroundMaterial: 'mica',
+    transparent: true,
+    frame: false,
+    visualEffectState: 'active',
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
